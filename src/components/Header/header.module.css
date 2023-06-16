@@ -1,0 +1,82 @@
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+.nav {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    background-color: #f3f3ff;
+    display: block;
+}
+.menu {
+    display: flex;
+}
+.link {
+    color: #f3f0f0;
+    margin-right: 35px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.active {
+    color: #C7A17A;
+    margin-right: 35px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.link:hover {
+    color: #C7A17A;
+}
+.basket {
+    background-color:#f3f3ff;
+    position: relative;
+}
+.event {
+    width: 12px;
+    height: 12px;
+    background-color: #C7A17A;
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+/*
+.styleNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+.menu {
+    display: flex;
+    gap: 0 20px;
+}
+.menuList {
+    list-style: none;
+}
+.basket {
+    position: relative;
+}
+.basket span {
+    font-size: 16px;
+    width: 18px;
+    height: 18px;
+    background-color: #a20d0d;
+    border-radius: 50%;
+    display: inline-block;
+    color: #FFF;
+    position: absolute;
+    display: flex;
+    line-height: 0;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    right: -2px;;
+}
+*/

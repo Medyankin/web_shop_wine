@@ -1,0 +1,60 @@
+.top {
+    /*min-width: calc(100vh - 80px);
+    background-image: url(/img/bgImageTop.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 1220px;*/
+    background-color: #eae9cf;
+}
+.container {
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.title {
+    padding-top: 16%;
+    font-size: 96px;
+    margin: 0;
+}
+.subtitle {
+    font-size: 48px;
+    margin-bottom: 5px;
+    margin: 0;
+}
+.topText {
+    font-size: 13px;
+    margin-bottom: 50px;
+}
+.btnTextBuy {
+    padding-top: 6px;
+    font-size: 26px;
+}
+.btnBuy {
+    box-sizing: border-box;
+
+    width: 140px;
+    height: 50px;
+    left: 222px;
+    top: 630px;
+    
+    background: rgba(244, 244, 244, 0.25);
+    border: 1px solid rgba(31, 31, 31, 0.5);
+    border-radius: 20px;
+}
+.btnTextCatalog{
+    padding-top: 6px;
+    font-size: 26px;
+}
+.btnCatalog{
+    box-sizing: border-box;
+
+    margin-left: 10px;
+    width: 140px;
+    height: 50px;
+    left: 374px;
+    top: 630px;
+
+    background: rgba(62, 44, 2, 0.25);
+    border: 1px solid rgba(31, 31, 31, 0.5);
+    border-radius: 20px;
+}

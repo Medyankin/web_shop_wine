@@ -14,5 +14,17 @@ body {
     line-height: 1.4;
     color: #5C5C5E;
     */
-    background-color: #f1f1f3;
+    background-color: #020204;
+    color: #fff;
+}
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+p {
+    color: #000F;
+}
+
+.line {
+    border-bottom: 1px solid #32323D;
 }

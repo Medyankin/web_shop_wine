@@ -1,0 +1,28 @@
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+.line__wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    align-items: center;
+}
+.line__lng {
+
+}
+.line__lng a {
+    color: #f3f0f0;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.line__lng a.active {
+  color: #C7A17A;
+}
+.phone {
+    color: #C7A17A;
+    font-weight: 600;
+    font-size: 14px;
+}

@@ -1,0 +1,8 @@
+.slide {
+    position: relative;
+    background: none;
+    border: none;
+}
+.slide:hover {
+    background-color: rgba(216, 78, 14, 0.35);
+}
